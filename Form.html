@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Form Practice</h1>
+
+    <form action="">
+      <div>
+        <label for="First name"> First Name:</label>
+        <input type="text" name="fname" id="fname" />
+      </div>
+      <div>
+        <label for="Last name"> Last Name:</label>
+        <input type="text" name="lname" id="lname" />
+      </div>
+      <div>
+        <label for="Email"> Email:</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="number">Number:</label>
+        <input type="text" name="number" id="number">
+      </div>
+        <label for="Cars">Choose a car:</label>
+        <select name="Cars" id="Cars">
+            <option value="Benz"> Benz</option>
+            <option value="BMW"> BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Lexus">Lexus</option>
+        </select>
+        <div>
+            <input type="Checkbox" id="vehicle" name="Vehicle 1" value="benz">
+            <label for="vehicle 1">I have a Benz</label><br>
+            <input type="checkbox" id="Vehicle" name="Vehicle 2" value="BMW">
+            <label for="Vehicle 2"> I have a BMW </label><br>
+            <input type="checkbox" id="vehicle" name="vehicle 3" value="Audi">
+            <label for="veehicle 3"> I have an Audi </label><br>
+            <input type="checkbox" id="Vehicle" name="vehicle 4" value="Lexus">
+            <label for="vehicle 4"> I have a Lexus</label><br>
+        </div>
+
+        <br>
+
+        <div>
+            <p>What is your favourite language?</p>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_laguage" value="CSS">
+            <label for="css"> CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="javascript">
+            <label for="javascript"> Javascript</label><br>
+        </div>
+        <br>
+        <div>
+            <label for="CSS">Upload a document</label><br>
+            <input type="file" name="date" id="time">
+        </div>
+        <br>
+        <div>
+            <textarea name="comment" id="" cols="30" rows="3"> Enter text here...</textarea><br><br>
+            <input type="text" placeholder="Your name"><br><br>
+            <input type="submit" value="Submit Here">
+        </div>
+
+    </form>
+  </body>
+</html>
